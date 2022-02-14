@@ -27,8 +27,7 @@ Run the following command to build an image of the app: 'sudo docker build -t ca
 Run the following command to run the app: 'sudo docker run -d -p 3000:3000 catwalk'
 Use the following command to make your app accessible to the public: 'sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000'
 Visit the public DNS of your EC2 container at the 'product/63609' route--if your deployment is successful, you should see the app!
-Current Deployment
-The current deployment can be found here: ec2-54-210-174-187.compute-1.amazonaws.com/product/63609/
+
 
 Team:
 Developed by David Rajec (Related Items), Eric Baldwin (Product Overview), and Anna Sarafanova (Questions and Answers)
